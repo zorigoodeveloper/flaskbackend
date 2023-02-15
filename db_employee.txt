@@ -1,0 +1,28 @@
+-- Database: db_employee
+
+-- DROP DATABASE IF EXISTS db_employee;
+
+--baaz uusgeh
+CREATE DATABASE db_employee
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+	
+
+--table uusgeh
+CREATE TABLE IF NOT EXISTS public.tbl_branch
+(
+    bid bigint NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 9223372036854775807 CACHE 1 ),
+    bname text COLLATE pg_catalog."default",
+    CONSTRAINT tbl_branch_pkey PRIMARY KEY (bid)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.tbl_branch
+    OWNER to postgres;

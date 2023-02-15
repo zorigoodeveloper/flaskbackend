@@ -1,0 +1,5 @@
+1. rest api-n talaar sudlah - http://1234.mn/index.php?page=pages/preview.php&cid=90 #15
+2. postgre suulgah turshih - https://www.youtube.com/watch?v=0n41UTkOBb0
+3. postman suulgah
+4. python, flask, vs code editor suulgah
+5. anhnii rest api uusgej uzeh - https://www.youtube.com/watch?v=DlNIXC9SaF4&list=WL&index=71
